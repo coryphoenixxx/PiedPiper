@@ -1,0 +1,63 @@
+html{
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+body{
+    min-width: 610px;
+}
+
+
+header{
+    width: 100%;
+    position: sticky;
+    background: #007765;
+}
+
+.header_section{
+    height: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header__links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link__item{
+
+    font-size: 24px;
+}
+
+.header__link{
+    text-decoration: none;
+    color: white;
+}
+
+.pipernet{
+    padding-top: 100px;
+    width: 100%;
+    background-image: url('../img/image_pipernet.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.pipernet__message{
+    color: white;
+    font-size: 72px;
+    text-align: center;
+}
+
+.content{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
