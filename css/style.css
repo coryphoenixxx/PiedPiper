@@ -1,27 +1,31 @@
 html{
     font-family: Roboto, sans-serif;
-    color: white;
+    color: black;
+    font-style: normal;
+    font-weight: 500;
 }
 
 body{
-    min-width: 610px;
+    min-width: 780px;
 }
 
 
-header{
+
+/* HEADER STYLES*/
+.header{
     width: 100%;
     position: sticky;
+    top: 0;
     background: #007765;
 }
 
-.header_section{
-    height: 100px;
-    margin-right: 50px;
-    margin-left: 50px;
+.header__block{
+    height: 84px;
+    margin-right: 55px;
+    margin-left: 55px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .header__links {
@@ -32,32 +36,173 @@ header{
 }
 
 .link__item{
-
     font-size: 24px;
+    color: white;
 }
 
 .header__link{
     text-decoration: none;
+
     color: white;
 }
 
-.pipernet{
-    padding-top: 100px;
-    width: 100%;
-    background-image: url('../img/image_pipernet.png');
+.header__link:hover, .header__link:focus, .header__link:active{
+    opacity: .75;
+}
+
+
+
+
+/* PIPERNET STYLES */
+.pipernet__block{
+    min-height: 487px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/image_pipernet.png') no-repeat center;
     background-size: cover;
-    background-position: center center;
 }
 
 .pipernet__message{
     color: white;
     font-size: 72px;
+    line-height: 84px;
     text-align: center;
 }
 
-.content{
+
+
+/* PIPERNET STYLES */
+.problem__block{
+    min-height: 719px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.problem__title{
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+
+    color: #007765;
+}
+
+.problem__text{
     max-width: 1100px;
-    margin: 0 auto;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+
+/* HERO STYLES*/
+.hero__block{
+    min-height: 483px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url('../img/hero.png') no-repeat center;
+    background-size: cover;
+}
+
+.hero__message{
+    max-width: 893px;
+
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+/* PPS STYLES*/
+.pps__block{
+    min-height: 604px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pps__title{
+    max-width: 1100px;
+    padding-bottom: 16px;
+
+    font-size: 64px;
+    line-height: 75px;
+    color: #007765;
+}
+
+.pps__inner_block {
+    max-width: 1100px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.pps__text{
+    max-width: 1100px;
+    padding-left: 48px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #000000;
+}
+
+
+
+/* TEAM STYLES */
+.team__block{
+    min-height: 845px;
+    background: #EEEEEE;;
+}
+
+.team__inner_block{
+    min-width: 1100px;
+}
+
+.team__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+
+    text-align: center;
+    color: #007765;
+}
+
+
+/* FOOTER STYLES */
+footer{
+    background: #333333;
+    height: 176px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text{
+    max-width: 540px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
 
