@@ -79,6 +79,7 @@ body{
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    background: #EEEEEE;
 }
 
 .problem__title{
@@ -139,6 +140,7 @@ body{
 
     font-size: 64px;
     line-height: 75px;
+
     color: #007765;
 }
 
@@ -164,25 +166,79 @@ body{
 
 
 
+
+
+
 /* TEAM STYLES */
 .team__block{
-    min-height: 845px;
-    background: #EEEEEE;;
+    height: 845px;
+    background: #EEEEEE;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 
 .team__inner_block{
-    min-width: 1100px;
+
 }
 
 .team__title{
+    text-align: center;
+
     font-style: normal;
     font-weight: 500;
     font-size: 64px;
     line-height: 75px;
 
-    text-align: center;
     color: #007765;
 }
+
+.team__members{
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.member__card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 350px;
+    height: 283px;
+}
+
+.member__name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    text-align: center;
+    padding-top: 12px;
+
+    color: #007765;
+}
+
+.member__position{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+
+
+
 
 
 /* FOOTER STYLES */
