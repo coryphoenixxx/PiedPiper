@@ -200,11 +200,11 @@ body{
     display: flex;
     align-items: center;
     flex-flow: row;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .member__card{
+    flex-basis: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
